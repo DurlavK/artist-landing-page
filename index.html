@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naturate</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="index-header">
+    <div class="nav-container">
+      <a class="link logo" href="index.html">Naturate</a>
+      <!--nav bar-->
+      <nav>
+        <ul>
+          <li> <a class="link" href="#work">Work</a> </li>
+          <li> <a class="link" href="/about.html">About</a> </li>
+          <li> <a class="link" href="/contact.html">Contact</a> </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="work">
+    <div class="images-container">
+      <div class="image-container image1">
+        <img src="/images/works/1.jpg" onclick="openModal();currentSlide(1)" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+      <div class="image-container image2">
+        <img src="/images/works/2.jpg" onclick="openModal();currentSlide(2)" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+      <div class="image-container image3">
+          <img src="/images/works/3.jpg" onclick="openModal();currentSlide(3)" alt=""> 
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+      <div class="image-container image4">
+        <img src="/images/works/4.jpg" onclick="openModal();currentSlide(4)" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+      <div class="image-container image5">
+        <img src="/images/works/5.jpg" alt="" onclick="openModal();currentSlide(5)">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+      <div class="image-container image6">
+        <img src="/images/works/6.jpg" alt="" onclick="openModal();currentSlide(6)">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+      <div class="image-container image7">
+        <img src="/images/works/7.jpg" alt="" onclick="openModal();currentSlide(7)">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+      <div class="image-container image8">
+        <img src="/images/works/8.jpg" onclick="openModal();currentSlide(8)"alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+      <div class="image-container image9">
+        <img src="/images/works/9.jpg" alt="" onclick="openModal();currentSlide(9)">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, sit?</p>
+      </div>
+    </div>
+    
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+
+        <div class="mySlides">
+          <img src="/images/works/1.jpg">
+        </div>
+
+        <div class="mySlides">
+          <img src="/images/works/2.jpg">
+        </div>
+
+        <div class="mySlides">
+          <img src="/images/works/3.jpg">
+        </div>
+
+        <div class="mySlides">
+          <img src="/images/works/4.jpg">
+        </div>
+
+        <div class="mySlides">
+          <img src="/images/works/5.jpg">
+        </div>
+
+        <div class="mySlides">
+          <img src="/images/works/6.jpg">
+        </div>
+
+        <div class="mySlides">
+          <img src="/images/works/7.jpg">
+        </div>
+
+        <div class="mySlides">
+          <img src="/images/works/8.jpg">
+        </div>
+
+        <div class="mySlides">
+          <img src="/images/works/9.jpg">
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <audio controls autoplay style="display: none;">
+      <source src="audio.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
