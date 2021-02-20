@@ -1,29 +1,9 @@
-# A photo/Illustrator/artist landing page (responsive)
+# Artist landing page (responsive)
 
-### preview 💻-https://durlavk.github.io/artist-landing-page/
+[![Generic badge](https://img.shields.io/badge/Live%20demo%20at-GitHub%20Pages-blueviolet.svg?style=for-the-badge&logo=GitHub)](https://github.com/DurlavK/artist-landing-page)
 
-### used 🧰-
-- html
-- css(flexbox)
-- js
+![Generic badge](https://img.shields.io/badge/Used-HTML-green.svg?style=plastic&logo=HTML5) ![Generic badge](https://img.shields.io/badge/Used-CSS-blue.svg?style=plastic&logo=CSS3) ![Generic badge](https://img.shields.io/badge/Used-JavaScript-yellow.svg?style=plastic&logo=JavaScript)
 
-### inspiritaion-
-https://annieryanstudio.com/
-
-### photo credits 🖼️-
-- dan-farrell - unsplash
-- jon-tyson - unsplash
-- timon-klauser - unsplash
-- aleksandra-besedina - unsplash
-- sam-photography - unsplash
-- michal-parzuchowski - unsplash
-- todd-trapani - unsplash
-- pixahive
-- undraw
-
-### background-music 🎼-
-- can't take my eyes off you
 
 ### todo -
 - add footer
-- call to action on hero section
